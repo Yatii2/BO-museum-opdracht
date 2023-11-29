@@ -1,0 +1,36 @@
+h1{
+    font-family: Sans-serif;
+    font-size:350%;
+    margin-bottom:2px;
+    border-bottom:3px solid white;
+}
+
+
+
+body{
+    background: black;
+}
+img{
+    width:100%;
+}
+article{
+    width: auto;
+    margin: 0 auto;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.begin {
+    font-family: sans-serif;
+    font-size:100%;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+  
