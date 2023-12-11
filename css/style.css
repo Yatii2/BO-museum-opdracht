@@ -1,3 +1,5 @@
+/* Index */
+
 body{
     margin: 0px; 
     background: black;
@@ -90,6 +92,7 @@ article{
   }
 .tentoonstelling2{
     width: 100px;
+    float: right;
 }
 .tentoonstelling3{
 width:100px;
@@ -114,4 +117,6 @@ width:100px;
     padding: 10px;
     
 }
+
+/* Index */
 
