@@ -120,3 +120,33 @@ width:100px;
 
 /* Index */
 
+
+.TicketTitle{
+    text-align: center;
+    font-family: Sans-serif;
+    font-size:350%;
+    margin-bottom:3px;
+    padding-bottom: 10px;
+    border-bottom:3px solid grey;
+    color: white;
+
+}
+
+.maincontent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.TicketsInfo{
+    border-style: solid;
+   
+    min-width: 150px;
+    min-height: 50px;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    color: white;
+}
