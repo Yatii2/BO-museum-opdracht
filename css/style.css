@@ -55,7 +55,7 @@ h1{
     
 }
 
-img{
+.container img{
     width:100%;
 }
 article{
@@ -68,6 +68,7 @@ article{
     position: relative;
     text-align: center;
     color: black;
+    margin-bottom:50px;
   }
 
 .begin {
@@ -90,37 +91,66 @@ article{
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
   }
-.tentoonstelling2{
-    width: 300px;
-    margin-left:auto;
+.tentoonstelling{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+flex-wrap: wrap;
 }
-.tentoonstelling3{
-    width: 500px;
-    margin-left:auto;
+.vertcenter    
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+figure
+{
+    height:fit-content ;
+}
 
+.tentoonstelling img{
+    width: 20vw;
 }
-.tentoonstelling4{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
+
+
+
+.vertcenter p,h2{
+    background-color: rgb(255, 255, 255, 0.8);
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .tentoonstelling5{
+    margin-top: 50px;
     position: relative;
     text-align: center;
     color: black;
 }
-
-.tentoonstelling5tekst{
+.tentoonstelling5 h1{
     font-family: Sans-serif;
     font-size:30px;
+    position: absolute;
     top: 250px;
     left: 20px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
-    
+    margin-left:1130px;
 }
+
+.tt5text{
+    font-family: Sans-serif;
+    font-size:20px;
+    position: absolute;
+    top: 327px;
+    left: 20px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 10px;
+    margin-left:350px;
+}
+
 
 /* Index eind*/
 
@@ -177,7 +207,45 @@ article{
 }
 
 /* Tickets eind */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Openingstijden begin */
+
+.opening{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center{
+    font-family: sans-serif;
+    font-size: 150%;
+   background-color: rgb(0, 0, 0, 0.6);
+   padding:30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .openingtijdimg{
+    opacity: 60%;
+} */
+
 /* Openingstijden eind */
 /* Contact begin */
 /* Contact Eind */
@@ -185,7 +253,12 @@ article{
 /* Engels eind */
 /* Geschiedenis begin */
 /* Geschiedenis eind */
+
 /* Highlights begin */
+
+
+
+
 /* Highlights eind */
 /* Review begin */
 /* Review eind */
