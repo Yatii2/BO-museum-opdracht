@@ -126,7 +126,7 @@ article{
 
 /* Tickets Begin */
 .TicketTitle{
-    text-align: center;
+    text-align:center;
     font-family: Sans-serif;
     font-size:350%;
     margin-bottom:3px;
@@ -141,18 +141,41 @@ article{
     flex-direction: row;
     justify-content:space-between;
 }
+
+.MainText{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 250px 0px 10px 10px;
+}
+
+
 .TicketsInfo{
+    
     border-style: solid;
-   margin-top: 30px;
+    margin: 50px 20px 20px 20px;
+    width: 350px;
     min-width: 150px;
     min-height: 50px;
     display: inline-block;
-    padding: 0px 30px;
-    font-size: 25px;
-    line-height: 50px;
+    padding: 10px 10px 10px 10px;
+    font-size: 40px;
     text-align: right;
     color: white;
+    text-align: center;
 }
+.TicketsInfo2{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 40px;
+
+}
+.ticket-info-li{
+    margin: 10px;
+    padding: 0px;
+}
+
 /* Tickets eind */
 /* Openingstijden begin */
 /* Openingstijden eind */
