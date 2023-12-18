@@ -91,15 +91,19 @@ article{
     padding: 10px;
   }
 .tentoonstelling2{
-    width: 100px;
-    float: right;
+    width: 300px;
+    margin-left:auto;
 }
 .tentoonstelling3{
-width:100px;
+    width: 500px;
+    margin-left:auto;
+
 }
 .tentoonstelling4{
-    width:100px
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
 }
 
 .tentoonstelling5{
