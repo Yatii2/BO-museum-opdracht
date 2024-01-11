@@ -188,7 +188,7 @@ main{
 }
 
 .MainText{
-
+    font-family: sans-serif;
     color: white;
     text-align: center;
     font-size: 30px;
@@ -198,7 +198,11 @@ main{
 
 
 .TicketsInfo{
+<<<<<<< HEAD
     background-color: rgba(127, 255, 212, 0.334);
+=======
+    font-family: sans-serif;
+>>>>>>> eb7e09ef5db1c7c715a5be73ce2224b083bd7263
     border-style: solid;
     margin: 50px 20px 230px 20px;
     width: 350px;
@@ -271,10 +275,85 @@ main{
 /* Geschiedenis begin */
 /* Geschiedenis eind */
 
+
+
+
+
 /* Highlights begin */
 
 
+.high1 img{
+    width: 60vw;
+}
 
+.high1 h2{
+    font-family: Sans-serif;
+    font-size:20px;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 10px;
+}
+.high1 p{
+    font-family: Sans-serif;
+    font-size:18px;
+    position: absolute;
+    top: 327px;
+    right: 70px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 10px;
+}
+
+.high2 img{
+    width:64%;
+    float: right;
+
+}
+
+.high2 h2{
+    font-family: Sans-serif;
+    font-size:20px;
+    position: absolute;
+    top: 980px;
+    right: 70px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 10px;
+}
+
+.high2 p{
+    font-family: Sans-serif;
+    font-size:20px;
+    position: absolute;
+    top: 1430px;
+    right: 70px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 10px;
+}
+
+.high3 img{
+    width:64%;
+}
+
+.high3 h2{
+    font-family: Sans-serif;
+    font-size:20px;
+    position: absolute;
+    top: 1800px;
+    left: 70px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 10px;
+}
+
+.high3 p{
+    font-family: Sans-serif;
+    font-size:20px;
+    position: absolute;
+    top: 1900px;
+    left: 70px;
+    background-color: rgba(255,255,255, 0.7);
+    padding: 10px;
+}
 
 /* Highlights eind */
 /* Review begin */
