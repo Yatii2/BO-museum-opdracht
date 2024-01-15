@@ -149,7 +149,7 @@ figure
     left: 20px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
-    margin-left:350px;
+    margin-left:600px;
 }
 
 
@@ -339,7 +339,7 @@ main{
     font-size:20px;
     position: absolute;
     top: 250px;
-    left: 70px;
+    right: 10px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
 }
@@ -348,9 +348,10 @@ main{
     font-size:18px;
     position: absolute;
     top: 327px;
-    right: 70px;
+    right: 10px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
+    direction: rtl;
 }
 
 .high2 img{
@@ -364,7 +365,7 @@ main{
     font-size:20px;
     position: absolute;
     top: 980px;
-    right: 70px;
+    left: 10px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
 }
@@ -373,8 +374,8 @@ main{
     font-family: Sans-serif;
     font-size:20px;
     position: absolute;
-    top: 1430px;
-    right: 70px;
+    top: 1050px;
+    left: 10px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
 }
@@ -388,7 +389,7 @@ main{
     font-size:20px;
     position: absolute;
     top: 1800px;
-    left: 70px;
+    right: 10px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
 }
@@ -398,9 +399,10 @@ main{
     font-size:20px;
     position: absolute;
     top: 1900px;
-    left: 70px;
+    right: 10px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
+    direction: rtl;
 }
 
 /* Highlights eind */
