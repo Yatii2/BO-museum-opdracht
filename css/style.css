@@ -118,10 +118,9 @@ figure
 
 
 .vertcenter p,h2{
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255, 0.7);
     font-family: sans-serif;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 .tentoonstelling5{
@@ -149,7 +148,7 @@ figure
     left: 20px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
-    margin-left:600px;
+    margin-left:350px;
 }
 
 
