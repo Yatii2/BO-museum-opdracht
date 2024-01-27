@@ -118,9 +118,10 @@ figure
 
 
 .vertcenter p,h2{
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: rgb(255, 255, 255, 0.8);
     font-family: sans-serif;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .tentoonstelling5{
@@ -194,7 +195,7 @@ main{
     color: white;
     text-align: center;
     font-size: 30px;
-    padding: 50px 0px 10px 330px;
+    padding: 20px 0px 10px 330px;
 
 }
 
@@ -205,7 +206,7 @@ main{
     background-color: rgba(127, 255, 212, 0.334);
     font-family: sans-serif;
     border-style: solid;
-    margin: 50px 20px 230px 20px;
+    margin: -80px 20px 10px 20px;
     width: 420px;
     min-width: 150px;
     min-height: 60px;
@@ -275,41 +276,65 @@ main{
 
 /* Contact begin */
 
-.TitelSection{
-
-    margin-top: 50px;
-    margin-left: 650px;
-    margin-right: 650px;
-    border-radius: 3px;
-    
-    
-
-}
-
-
-.TitelContact{
-    color: white;
+.WholePage{
+    margin-top: -2px;
+    padding-bottom: 9%;
+    background-image: radial-gradient(darkblue, lightblue, blue);   
     text-align: center;
     font-family: sans-serif;
-    font-size: 350%;
-}       
-
-
-.DetailContact{
-    color: white;
-    font-family: sans-serif;
-    padding-left: 450px;
-    margin-top: 60px;
-    font-size: 25px;
-    background-color: rgba(128, 128, 128, 0.577);
+    color: rgb(51, 81, 191);
 }
 
+.TitelContact{
+    padding-top: 50px ;
+    margin-bottom: 20px;
+    font-size: 50px ;
+    border-bottom-style: ridge;
+   
+}
+
+.ContactInfo{
+    width: 50vw;
+    margin-left: 400px;
+    background-color:  rgba(62, 184, 255, 0.769);
+    border-radius: 45px;
+    border-style: ridge;
+    color: rgb(13, 39, 54);
+    font-size: 30px;
+}
+.ContactInfo:hover{
+    background-color:  rgba(62, 184, 255, 0.769);
+}
+
+
 .TelefoonNummer{
-    color: white;
-    font-family: sans-serif;
-    padding-left: 450px;
-    margin-top: 60px;
-    font-size: 25px;    
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.TelefoonNummer:hover{
+    color: azure ;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+
+.Email{
+    padding-bottom: 35px;
+}
+.Email:hover{
+    color: azure ;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+
+.Bedrijf{
+    padding-bottom: 35px;
+}
+.Bedrijf:hover{
+    color: azure ;
+    border-radius: 45px;
+    cursor: pointer;
 }
 
 
@@ -338,7 +363,7 @@ main{
     font-size:20px;
     position: absolute;
     top: 250px;
-    right: 10px;
+    left: 70px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
 }
@@ -347,10 +372,9 @@ main{
     font-size:18px;
     position: absolute;
     top: 327px;
-    right: 10px;
+    right: 70px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
-    direction: rtl;
 }
 
 .high2 img{
@@ -364,7 +388,7 @@ main{
     font-size:20px;
     position: absolute;
     top: 980px;
-    left: 10px;
+    right: 70px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
 }
@@ -373,8 +397,8 @@ main{
     font-family: Sans-serif;
     font-size:20px;
     position: absolute;
-    top: 1050px;
-    left: 10px;
+    top: 1430px;
+    right: 70px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
 }
@@ -388,7 +412,7 @@ main{
     font-size:20px;
     position: absolute;
     top: 1800px;
-    right: 10px;
+    left: 70px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
 }
@@ -398,10 +422,9 @@ main{
     font-size:20px;
     position: absolute;
     top: 1900px;
-    right: 10px;
+    left: 70px;
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
-    direction: rtl;
 }
 
 /* Highlights eind */
