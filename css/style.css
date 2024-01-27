@@ -117,8 +117,19 @@ figure
 
 
 
+<<<<<<< HEAD
 .vertcenter p,h2{
     background-color: rgb(255, 255, 255, 0.8);
+=======
+.vertcenter > h2{
+    background-color: rgb(255, 255, 255, 0.7);
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.vertcenter > p{
+    background-color: rgb(255, 255, 255, 0.7);
+>>>>>>> 09b9ff6f9772454716c200f20a3a22f7cd38d850
     font-family: sans-serif;
     padding-left: 10px;
     padding-right: 10px;
@@ -353,15 +364,26 @@ main{
 
 /* Highlights begin */
 
-
-.high1 img{
+/* Dropdown Button */
+.dropbtn1 {
     width: 60vw;
-}
-
-.high1 h2{
-    font-family: Sans-serif;
-    font-size:20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content1 {
+    font-family: sans-serif;
+    display: none;
     position: absolute;
+<<<<<<< HEAD
     top: 250px;
     left: 70px;
     background-color: rgba(255,255,255, 0.7);
@@ -376,27 +398,84 @@ main{
     background-color: rgba(255,255,255, 0.7);
     padding: 10px;
 }
+=======
+    background-color: rgb(255, 255, 255, 0.7);
+    min-width:500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 940px;
+    top: 200px;
+    padding: 10px;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content1 a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+>>>>>>> 09b9ff6f9772454716c200f20a3a22f7cd38d850
 
-.high2 img{
-    width:64%;
+/* Dropdown Button */
+.dropbtn2 {
+    width: 64%;
     float: right;
-
-}
-
-.high2 h2{
-    font-family: Sans-serif;
-    font-size:20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content2 {
+    font-family: sans-serif;
+    display: none;
     position: absolute;
+<<<<<<< HEAD
     top: 980px;
     right: 70px;
     background-color: rgba(255,255,255, 0.7);
+=======
+    background-color: rgb(255, 255, 255, 0.7);
+    min-width:100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 900px;
+    top: 200px;
+>>>>>>> 09b9ff6f9772454716c200f20a3a22f7cd38d850
     padding: 10px;
-}
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content2 a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
 
-.high2 p{
-    font-family: Sans-serif;
-    font-size:20px;
+/* Dropdown Button */
+.dropbtn3 {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content3 {
+    font-family: sans-serif;
+    display: none;
     position: absolute;
+<<<<<<< HEAD
     top: 1430px;
     right: 70px;
     background-color: rgba(255,255,255, 0.7);
@@ -427,6 +506,21 @@ main{
     padding: 10px;
 }
 
+=======
+    background-color: rgb(255, 255, 255, 0.7);
+    min-width:500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 740px;
+    top: 200px;
+    padding: 10px;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content3 a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+>>>>>>> 09b9ff6f9772454716c200f20a3a22f7cd38d850
 /* Highlights eind */
 /* Review begin */
 /* Review eind */
