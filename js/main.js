@@ -1,10 +1,18 @@
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+function changeColor(color) {
+  document.body.style.background = color;
+}
+
+function myFunc() {
+  changeColor('brown');
+}  
+
+
+// button highlights
 function myFunction1() {
   document.getElementById("myDropdown1").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
+
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn1')) {
     var dropdowns = document.getElementsByClassName("dropdown-content1");
@@ -22,7 +30,7 @@ function myFunction2() {
   document.getElementById("myDropdown2").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
+
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn2')) {
     var dropdowns = document.getElementsByClassName("dropdown-content2");
@@ -40,7 +48,7 @@ function myFunction3() {
   document.getElementById("myDropdown3").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
+
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn3')) {
     var dropdowns = document.getElementsByClassName("dropdown-content3");

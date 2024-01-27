@@ -5,6 +5,11 @@ body{
     background: black;
 }
 
+.secretbutton{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
 
 main{
     margin-left:20px;
