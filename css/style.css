@@ -181,6 +181,7 @@ figure
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    padding-bottom: 25px;
 }
 main{
     
@@ -279,18 +280,30 @@ main{
 .WholePage{
     margin-top: -2px;
     padding-bottom: 9%;
-    background-image: radial-gradient(darkblue, lightblue, blue);   
+    background-image: radial-gradient(darkblue, rgb(112, 159, 175), blue);   
     text-align: center;
     font-family: sans-serif;
     color: rgb(51, 81, 191);
 }
 
 .TitelContact{
+    transition-duration: 0.2s;
+
     padding-top: 50px ;
     margin-bottom: 20px;
     font-size: 50px ;
     border-bottom-style: ridge;
    
+}
+
+.TitelContact{}
+
+.ContactTekst{
+    transition-duration: 0.5s;
+}
+.ContactTekst:hover{
+    cursor: pointer;
+    font-size: 25px;
 }
 
 .ContactInfo{
@@ -301,13 +314,12 @@ main{
     border-style: ridge;
     color: rgb(13, 39, 54);
     font-size: 30px;
-}
-.ContactInfo:hover{
-    background-color:  rgba(62, 184, 255, 0.769);
+    transition-duration: 0.4s;
 }
 
 
 .TelefoonNummer{
+    transition-duration: 0.2s;
     padding-top: 25px;
     padding-bottom: 35px;
 }
@@ -320,6 +332,8 @@ main{
 
 .Email{
     padding-bottom: 35px;
+    transition-duration: 0.2s;
+
 }
 .Email:hover{
     color: azure ;
@@ -330,6 +344,8 @@ main{
 
 .Bedrijf{
     padding-bottom: 35px;
+    transition-duration: 0.2s;
+
 }
 .Bedrijf:hover{
     color: azure ;
